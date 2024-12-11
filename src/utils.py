@@ -13,7 +13,7 @@ from matplotlib import animation
 from tqdm import trange
 
 
-ARTIFACT_DIRECTORY: str='artifacts'
+ARTIFACT_DIRECTORY: str='./artifacts'
 MAX_EVAL_EPISODE_STEPS: int = 1_000
 # EVAL_EPISODES: int = 10
 SMOOTHING_WINDOW: int = 50
