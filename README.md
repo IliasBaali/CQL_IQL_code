@@ -32,3 +32,10 @@ pip install notebook ipykernel
 python -m ipykernel install --user --name=venv --display-name "Python (IQL_CQL_env)"
 ```
 You will then need to select the kernel named "Python (IQL_CQL_env)" in Jupyter.
+
+### Repository
+
+In the repository, you can find 2 python notebooks, respectively implementing CQL and IQL.
+This code makes use of some utility functions which are useful to plot and visualize the policies, located in src/utils.py, as well as src/d4rl_dataset.py that provides a useful wrapper to create mini-batches from the D4RL dataset. These files are borrowed from HW2. 
+
+In the artifacts folder, you can find the training curves for CQL and IQL as well as GIFs visualizing the trained policies.
