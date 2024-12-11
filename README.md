@@ -3,7 +3,7 @@
 In this folder, we provide two notebook implementations of CQL and IQL to solve the Mujoco Hopper environment.
 These implementations follow the work detailed the recommendations and algorithms detailed in the original papers introducing [CQL](https://arxiv.org/abs/2006.04779) and [IQL](https://arxiv.org/abs/2110.06169).
 
-#### Installation instructions 
+### Installation instructions 
 
 These two notebooks can be run using the environment that was used in HW2. Since the code uses Mujoco for the environment, it is not supported on Windows setups. However, PACE and/or Google Collab should work fine.
 
