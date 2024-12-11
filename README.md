@@ -9,14 +9,14 @@ These two notebooks can be run using the environment that was used in HW2. Since
 
 If you need to recreate the environment, you can do so as follows:
 
-1. Create the environment
+1. Create the environment & install the dependencies
 ```console
-python -m venv venv
+conda env create -f env.yaml
 ```
 
-2. Install the dependencies
+2. Activate the environment
 ```console
-pip install -r requirements.txt
+conda activate cs8803drl_hw2
 ```
 
 3. Install Mujoco<br />
@@ -28,9 +28,7 @@ For Windows users, we recommend either running with Google Colab or PACE.
 ```console
 pip install notebook ipykernel
 ```
-
-Then 
 ```console
-python -m ipykernel install --user --name=venv --display-name "Python (venv)"
+python -m ipykernel install --user --name=venv --display-name "Python (IQL_CQL_env)"
 ```
-You will then need to select the kernel named "Python (venv)" in Jupyter.
+You will then need to select the kernel named "Python (IQL_CQL_env)" in Jupyter.
